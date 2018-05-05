@@ -13,6 +13,7 @@
 		2453AD68209C2CF900D81747 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2453AD66209C2CF900D81747 /* LaunchScreen.storyboard */; };
 		2453AD73209C2CFA00D81747 /* MapViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2453AD72209C2CFA00D81747 /* MapViewControllerTest.swift */; };
 		2453AD7E209C2CFA00D81747 /* PoppinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2453AD7D209C2CFA00D81747 /* PoppinUITests.swift */; };
+		EA9B38B1209DB88000B06493 /* UserLocationPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9B38B0209DB88000B06493 /* UserLocationPresenterTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		2453AD79209C2CFA00D81747 /* PoppinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoppinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2453AD7D209C2CFA00D81747 /* PoppinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoppinUITests.swift; sourceTree = "<group>"; };
 		2453AD7F209C2CFA00D81747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA9B38B0209DB88000B06493 /* UserLocationPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationPresenterTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			children = (
 				2453AD72209C2CFA00D81747 /* MapViewControllerTest.swift */,
 				EA9B38AF209DB16E00B06493 /* Supporting Files */,
+				EA9B38B0209DB88000B06493 /* UserLocationPresenterTest.swift */,
 			);
 			path = PoppinTests;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA9B38B1209DB88000B06493 /* UserLocationPresenterTest.swift in Sources */,
 				2453AD73209C2CFA00D81747 /* MapViewControllerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
