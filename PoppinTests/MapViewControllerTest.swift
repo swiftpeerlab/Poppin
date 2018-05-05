@@ -2,7 +2,7 @@ import XCTest
 import MapKit
 @testable import Poppin
 
-class PoppinTests: XCTestCase {
+class MapViewControllerTest: XCTestCase {
     func testMainViewShouldBeMapKitView() {
         let viewController = MapViewController()
 
