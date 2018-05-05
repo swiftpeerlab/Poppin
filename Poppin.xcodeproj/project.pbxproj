@@ -97,9 +97,7 @@
 			children = (
 				2453AD5D209C2CF800D81747 /* AppDelegate.swift */,
 				2453AD5F209C2CF800D81747 /* ViewController.swift */,
-				2453AD64209C2CF900D81747 /* Assets.xcassets */,
-				2453AD66209C2CF900D81747 /* LaunchScreen.storyboard */,
-				2453AD69209C2CF900D81747 /* Info.plist */,
+				EA9B38AE209DB00900B06493 /* Supporting Files */,
 			);
 			path = Poppin;
 			sourceTree = "<group>";
@@ -120,6 +118,16 @@
 				2453AD7F209C2CFA00D81747 /* Info.plist */,
 			);
 			path = PoppinUITests;
+			sourceTree = "<group>";
+		};
+		EA9B38AE209DB00900B06493 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2453AD64209C2CF900D81747 /* Assets.xcassets */,
+				2453AD66209C2CF900D81747 /* LaunchScreen.storyboard */,
+				2453AD69209C2CF900D81747 /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -420,7 +428,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4C34FT6ABU;
-				INFOPLIST_FILE = Poppin/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Poppin/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -438,7 +446,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4C34FT6ABU;
-				INFOPLIST_FILE = Poppin/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Poppin/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
