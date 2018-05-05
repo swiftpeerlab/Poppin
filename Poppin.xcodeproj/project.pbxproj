@@ -14,6 +14,12 @@
 		2453AD73209C2CFA00D81747 /* MapViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2453AD72209C2CFA00D81747 /* MapViewControllerTest.swift */; };
 		2453AD7E209C2CFA00D81747 /* PoppinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2453AD7D209C2CFA00D81747 /* PoppinUITests.swift */; };
 		EA9B38B1209DB88000B06493 /* UserLocationPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9B38B0209DB88000B06493 /* UserLocationPresenterTest.swift */; };
+		EA9B38B3209DBFF400B06493 /* UserLocationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9B38B2209DBFF400B06493 /* UserLocationPresenter.swift */; };
+		EA9B38B5209DC00400B06493 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9B38B4209DC00400B06493 /* Location.swift */; };
+		EA9B38B7209DC01500B06493 /* UserLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9B38B6209DC01500B06493 /* UserLocationService.swift */; };
+		EA9B38B9209DC02700B06493 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9B38B8209DC02700B06493 /* MapView.swift */; };
+		EA9B38BB209DC06700B06493 /* SpyMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9B38BA209DC06600B06493 /* SpyMapView.swift */; };
+		EA9B38BD209DC07400B06493 /* MockUserLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9B38BC209DC07400B06493 /* MockUserLocationService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		2453AD7D209C2CFA00D81747 /* PoppinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoppinUITests.swift; sourceTree = "<group>"; };
 		2453AD7F209C2CFA00D81747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA9B38B0209DB88000B06493 /* UserLocationPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationPresenterTest.swift; sourceTree = "<group>"; };
+		EA9B38B2209DBFF400B06493 /* UserLocationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationPresenter.swift; sourceTree = "<group>"; };
+		EA9B38B4209DC00400B06493 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		EA9B38B6209DC01500B06493 /* UserLocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationService.swift; sourceTree = "<group>"; };
+		EA9B38B8209DC02700B06493 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		EA9B38BA209DC06600B06493 /* SpyMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpyMapView.swift; sourceTree = "<group>"; };
+		EA9B38BC209DC07400B06493 /* MockUserLocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUserLocationService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +112,10 @@
 				2453AD5D209C2CF800D81747 /* AppDelegate.swift */,
 				2453AD5F209C2CF800D81747 /* MapViewController.swift */,
 				EA9B38AE209DB00900B06493 /* Supporting Files */,
+				EA9B38B2209DBFF400B06493 /* UserLocationPresenter.swift */,
+				EA9B38B4209DC00400B06493 /* Location.swift */,
+				EA9B38B6209DC01500B06493 /* UserLocationService.swift */,
+				EA9B38B8209DC02700B06493 /* MapView.swift */,
 			);
 			path = Poppin;
 			sourceTree = "<group>";
@@ -110,6 +126,8 @@
 				2453AD72209C2CFA00D81747 /* MapViewControllerTest.swift */,
 				EA9B38AF209DB16E00B06493 /* Supporting Files */,
 				EA9B38B0209DB88000B06493 /* UserLocationPresenterTest.swift */,
+				EA9B38BA209DC06600B06493 /* SpyMapView.swift */,
+				EA9B38BC209DC07400B06493 /* MockUserLocationService.swift */,
 			);
 			path = PoppinTests;
 			sourceTree = "<group>";
@@ -271,7 +289,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA9B38B3209DBFF400B06493 /* UserLocationPresenter.swift in Sources */,
+				EA9B38B9209DC02700B06493 /* MapView.swift in Sources */,
+				EA9B38B7209DC01500B06493 /* UserLocationService.swift in Sources */,
 				2453AD60209C2CF800D81747 /* MapViewController.swift in Sources */,
+				EA9B38B5209DC00400B06493 /* Location.swift in Sources */,
 				2453AD5E209C2CF800D81747 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +304,8 @@
 			files = (
 				EA9B38B1209DB88000B06493 /* UserLocationPresenterTest.swift in Sources */,
 				2453AD73209C2CFA00D81747 /* MapViewControllerTest.swift in Sources */,
+				EA9B38BB209DC06700B06493 /* SpyMapView.swift in Sources */,
+				EA9B38BD209DC07400B06493 /* MockUserLocationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
