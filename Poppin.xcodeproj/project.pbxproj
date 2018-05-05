@@ -106,7 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				2453AD72209C2CFA00D81747 /* PoppinTests.swift */,
-				2453AD74209C2CFA00D81747 /* Info.plist */,
+				EA9B38AF209DB16E00B06493 /* Supporting Files */,
 			);
 			path = PoppinTests;
 			sourceTree = "<group>";
@@ -126,6 +126,14 @@
 				2453AD64209C2CF900D81747 /* Assets.xcassets */,
 				2453AD66209C2CF900D81747 /* LaunchScreen.storyboard */,
 				2453AD69209C2CF900D81747 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA9B38AF209DB16E00B06493 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2453AD74209C2CFA00D81747 /* Info.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -465,7 +473,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4C34FT6ABU;
-				INFOPLIST_FILE = PoppinTests/Info.plist;
+				INFOPLIST_FILE = "PoppinTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -486,7 +494,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4C34FT6ABU;
-				INFOPLIST_FILE = PoppinTests/Info.plist;
+				INFOPLIST_FILE = "PoppinTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
