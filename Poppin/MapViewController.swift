@@ -20,6 +20,7 @@ class MapViewController: UIViewController {
 extension MapViewController: MapView {
 
     func showUserLocationNotAvailable() {
+        EnableLocationView.show()
     }
 
     func showUserLocation(location: Location) {
