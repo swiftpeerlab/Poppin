@@ -4,9 +4,9 @@ class MockUserLocationService: UserLocationService {
 
     var userLocationAvailable: Bool!
 
-    func getUserLocation(completionHandler: ((Location?) -> Void)) {
+    func getUserLocation(completionHandler: @escaping LocationHandler) {
         if userLocationAvailable {
-            completionHandler(Location(longitude: 0, latitude: 0))
+            completionHandler(Location(latitude: 0, longitude: 0))
         } else {
             completionHandler(nil)
         }

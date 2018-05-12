@@ -44,8 +44,3 @@ extension CLUserLocationService: CLLocationManagerDelegate {
     }
 }
 
-extension CLLocationCoordinate2D {
-    var location: Location {
-        return Location(longitude: longitude, latitude: latitude)
-    }
-}

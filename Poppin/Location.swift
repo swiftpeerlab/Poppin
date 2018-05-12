@@ -1,4 +1,4 @@
 struct Location {
-    let longitude: Double
     let latitude: Double
+    let longitude: Double
 }
