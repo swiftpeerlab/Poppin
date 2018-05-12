@@ -20,6 +20,7 @@
 		EA9B38B9209DC02700B06493 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9B38B8209DC02700B06493 /* MapView.swift */; };
 		EA9B38BB209DC06700B06493 /* SpyMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9B38BA209DC06600B06493 /* SpyMapView.swift */; };
 		EA9B38BD209DC07400B06493 /* MockUserLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9B38BC209DC07400B06493 /* MockUserLocationService.swift */; };
+		EA9D2BF020A6E31400DEBD19 /* CLUserLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9D2BEF20A6E31400DEBD19 /* CLUserLocationService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		EA9B38B8209DC02700B06493 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		EA9B38BA209DC06600B06493 /* SpyMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpyMapView.swift; sourceTree = "<group>"; };
 		EA9B38BC209DC07400B06493 /* MockUserLocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUserLocationService.swift; sourceTree = "<group>"; };
+		EA9D2BEF20A6E31400DEBD19 /* CLUserLocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLUserLocationService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				EA9B38B4209DC00400B06493 /* Location.swift */,
 				EA9B38B6209DC01500B06493 /* UserLocationService.swift */,
 				EA9B38B8209DC02700B06493 /* MapView.swift */,
+				EA9D2BEF20A6E31400DEBD19 /* CLUserLocationService.swift */,
 			);
 			path = Poppin;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA9B38B3209DBFF400B06493 /* UserLocationPresenter.swift in Sources */,
+				EA9D2BF020A6E31400DEBD19 /* CLUserLocationService.swift in Sources */,
 				EA9B38B9209DC02700B06493 /* MapView.swift in Sources */,
 				EA9B38B7209DC01500B06493 /* UserLocationService.swift in Sources */,
 				2453AD60209C2CF800D81747 /* MapViewController.swift in Sources */,

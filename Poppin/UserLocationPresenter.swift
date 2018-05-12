@@ -6,9 +6,9 @@ struct UserLocationPresenter {
     func locateUser() {
         service.getUserLocation { location in
             if let location = location {
-                view.showUserLocation(location: location)
+                self.view.showUserLocation(location: location)
             } else {
-                view.showUserLocationNotAvailable()
+                self.view.showUserLocationNotAvailable()
             }
         }
     }

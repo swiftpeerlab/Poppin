@@ -1,3 +1,4 @@
 protocol UserLocationService {
-    func getUserLocation(completionHandler: ((Location?) -> Void))
+    typealias LocationHandler = ((Location?) -> Void)
+    func getUserLocation(completionHandler: @escaping LocationHandler)
 }
