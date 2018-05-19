@@ -1,18 +1,32 @@
 import UIKit
 import MapKit
+import TinyConstraints
 
 class MapViewController: UIViewController {
 
-    lazy var userLocationService = CLUserLocationService()
-    lazy var presenter = UserLocationPresenter(view: self, service: userLocationService)
+    private lazy var userLocationService = CLUserLocationService()
+    private lazy var presenter = UserLocationPresenter(view: self, service: userLocationService)
 
     override func viewDidLoad() {
         super.viewDidLoad()
         view = MKMapView()
+        addLocateUserButton()
     }
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        locateUser()
+    }
+
+    private func addLocateUserButton() {
+        let locateUserButton = LocateUserButton.build()
+        locateUserButton.addTarget(self, action: #selector(locateUser), for: .touchUpInside)
+        view.addSubview(locateUserButton)
+        locateUserButton.top(to: view.safeAreaLayoutGuide).constant = 8
+        locateUserButton.leadingToSuperview().constant = 8
+    }
+
+    @objc private func locateUser() {
         presenter.locateUser()
     }
 }
@@ -25,7 +39,10 @@ extension MapViewController: MapView {
 
     func showUserLocation(location: Location) {
         guard let mapView = view as? MKMapView else { return }
-        mapView.setCenter(location.CLLocation, animated: true)
         mapView.showsUserLocation = true
+
+        let span = MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1)
+        let region = MKCoordinateRegion(center: location.CLLocation, span: span)
+        mapView.setRegion(region, animated: true)
     }
 }
