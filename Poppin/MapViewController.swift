@@ -23,7 +23,7 @@ class MapViewController: UIViewController {
         locateUserButton.addTarget(self, action: #selector(locateUser), for: .touchUpInside)
         view.addSubview(locateUserButton)
         locateUserButton.top(to: view.safeAreaLayoutGuide).constant = 8
-        locateUserButton.trailingToSuperview().constant = -8
+        locateUserButton.leadingToSuperview().constant = 8
     }
 
     @objc private func locateUser() {
