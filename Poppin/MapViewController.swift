@@ -4,8 +4,8 @@ import TinyConstraints
 
 class MapViewController: UIViewController {
 
-    lazy var userLocationService = CLUserLocationService()
-    lazy var presenter = UserLocationPresenter(view: self, service: userLocationService)
+    private lazy var userLocationService = CLUserLocationService()
+    private lazy var presenter = UserLocationPresenter(view: self, service: userLocationService)
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,14 +15,19 @@ class MapViewController: UIViewController {
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        presenter.locateUser()
+        locateUser()
     }
 
-    func addLocateUserButton() {
+    private func addLocateUserButton() {
         let locateUserButton = LocateUserButton.build()
+        locateUserButton.addTarget(self, action: #selector(locateUser), for: .touchUpInside)
         view.addSubview(locateUserButton)
         locateUserButton.top(to: view.safeAreaLayoutGuide).constant = 8
         locateUserButton.trailingToSuperview().constant = -8
+    }
+
+    @objc private func locateUser() {
+        presenter.locateUser()
     }
 }
 

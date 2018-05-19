@@ -2,7 +2,7 @@ import UIKit
 
 class LocateUserButton {
 
-    static func build() -> UIView {
+    static func build() -> UIButton {
         let cursorImage = #imageLiteral(resourceName: "cursor").withRenderingMode(.alwaysTemplate)
         let button = MDCFloatingButton()
         button.setImage(cursorImage, for: .normal)
