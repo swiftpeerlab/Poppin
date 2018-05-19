@@ -17,6 +17,7 @@
 		875E4E3262AFA8253CBB6CC6 /* libPods-Poppin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D52B3E2020F94DF13232B93 /* libPods-Poppin.a */; };
 		E61E6146D07B7F9B6816621B /* libPods-PoppinTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C10B0B2357761CB19EF3836A /* libPods-PoppinTests.a */; };
 		EA3F57A820A6F30500339B27 /* EnableLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3F57A720A6F30500339B27 /* EnableLocationView.swift */; };
+		EA3F57AD20A6F9E000339B27 /* LocateUserButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3F57AC20A6F9E000339B27 /* LocateUserButton.swift */; };
 		EA9B38B1209DB88000B06493 /* UserLocationPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9B38B0209DB88000B06493 /* UserLocationPresenterTest.swift */; };
 		EA9B38B3209DBFF400B06493 /* UserLocationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9B38B2209DBFF400B06493 /* UserLocationPresenter.swift */; };
 		EA9B38B5209DC00400B06493 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9B38B4209DC00400B06493 /* Location.swift */; };
@@ -69,6 +70,7 @@
 		C50F718AA41C0DCCB1F208D6 /* libPods-PoppinUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PoppinUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA3F57A720A6F30500339B27 /* EnableLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnableLocationView.swift; sourceTree = "<group>"; };
 		EA3F57A920A6F44300339B27 /* Poppin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Poppin-Bridging-Header.h"; sourceTree = "<group>"; };
+		EA3F57AC20A6F9E000339B27 /* LocateUserButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocateUserButton.swift; sourceTree = "<group>"; };
 		EA9B38B0209DB88000B06493 /* UserLocationPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationPresenterTest.swift; sourceTree = "<group>"; };
 		EA9B38B2209DBFF400B06493 /* UserLocationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationPresenter.swift; sourceTree = "<group>"; };
 		EA9B38B4209DC00400B06493 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				EA9D2BEF20A6E31400DEBD19 /* CLUserLocationService.swift */,
 				EA9D2BF120A6EEB000DEBD19 /* Location+CoreLocation.swift */,
 				EA3F57A720A6F30500339B27 /* EnableLocationView.swift */,
+				EA3F57AC20A6F9E000339B27 /* LocateUserButton.swift */,
 			);
 			path = Poppin;
 			sourceTree = "<group>";
@@ -464,6 +467,7 @@
 				EA9B38B9209DC02700B06493 /* MapView.swift in Sources */,
 				EA9B38B7209DC01500B06493 /* UserLocationService.swift in Sources */,
 				EA9D2BF220A6EEB000DEBD19 /* Location+CoreLocation.swift in Sources */,
+				EA3F57AD20A6F9E000339B27 /* LocateUserButton.swift in Sources */,
 				2453AD60209C2CF800D81747 /* MapViewController.swift in Sources */,
 				EA9B38B5209DC00400B06493 /* Location.swift in Sources */,
 				2453AD5E209C2CF800D81747 /* AppDelegate.swift in Sources */,

@@ -466,9 +466,11 @@ PODS:
     - MotionInterchange (~> 1.6)
   - MotionInterchange (1.6.0)
   - MotionTransitioning (5.0.0)
+  - TinyConstraints (3.1.0)
 
 DEPENDENCIES:
   - MaterialComponents
+  - TinyConstraints
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -478,6 +480,7 @@ SPEC REPOS:
     - MotionAnimator
     - MotionInterchange
     - MotionTransitioning
+    - TinyConstraints
 
 SPEC CHECKSUMS:
   MaterialComponents: 9cc85f4fea3adb8b2323094a8baf7a444ad382a1
@@ -486,7 +489,8 @@ SPEC CHECKSUMS:
   MotionAnimator: ee16aa30567c5bae0fb2750c132915829cfaaf8a
   MotionInterchange: ead0e3ae1f3a5fb539e289debbc7ae036160a10d
   MotionTransitioning: 23d25edc2f4606efb922403cbac6d81af37aa33a
+  TinyConstraints: 4721a4b303c799328867078ade6560e152df54d1
 
-PODFILE CHECKSUM: 614f0d044d7f050f30437c6d1ffb4abeccdce183
+PODFILE CHECKSUM: c7eb584443b5a1017e43d6ab4e53fc8d0d671f6d
 
 COCOAPODS: 1.5.0

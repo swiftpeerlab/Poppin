@@ -1,5 +1,6 @@
 import UIKit
 import MapKit
+import TinyConstraints
 
 class MapViewController: UIViewController {
 
@@ -9,11 +10,19 @@ class MapViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view = MKMapView()
+        addLocateUserButton()
     }
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         presenter.locateUser()
+    }
+
+    func addLocateUserButton() {
+        let locateUserButton = LocateUserButton.build()
+        view.addSubview(locateUserButton)
+        locateUserButton.top(to: view.safeAreaLayoutGuide).constant = 8
+        locateUserButton.trailingToSuperview().constant = -8
     }
 }
 
