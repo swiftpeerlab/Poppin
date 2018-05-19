@@ -473,7 +473,7 @@ DEPENDENCIES:
   - TinyConstraints
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - MaterialComponents
     - MDFInternationalization
     - MDFTextAccessibility
@@ -493,4 +493,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: c7eb584443b5a1017e43d6ab4e53fc8d0d671f6d
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.2
