@@ -39,7 +39,10 @@ extension MapViewController: MapView {
 
     func showUserLocation(location: Location) {
         guard let mapView = view as? MKMapView else { return }
-        mapView.setCenter(location.CLLocation, animated: true)
         mapView.showsUserLocation = true
+
+        let span = MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1)
+        let region = MKCoordinateRegion(center: location.CLLocation, span: span)
+        mapView.setRegion(region, animated: true)
     }
 }
